@@ -18,3 +18,4 @@ job2:
   script:
     - echo "This job runs for the default branch, but not schedules."
     - echo "It also runs for merge requests."
+    - echo "this will runfor schdue builds"
