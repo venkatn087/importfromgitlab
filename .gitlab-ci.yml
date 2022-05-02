@@ -9,6 +9,7 @@ job1:
     - !reference [.default_rules, rules]
   script:
     - echo "This job runs for the default branch, but not schedules."
+    - echo "this job runes 2 mins once"
 
 job2:
   rules:
